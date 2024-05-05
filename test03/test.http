@@ -1,0 +1,9 @@
+# get https://baconipsum.com/api/?type=meat-and-filler&paras=99&format=text
+# meatType := []string{"t-bone", "fatback", "pastrami", "pork", "meatloaf", "jowl", "enim", "bresaola"}
+
+post http://localhost:8000/beef/summary
+Content-Type: application/json
+
+{
+    "meat_list":["t-bone", "fatback", "pastrami", "pork", "meatloaf", "jowl", "enim", "bresaola"]
+}
